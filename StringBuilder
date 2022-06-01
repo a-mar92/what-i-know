@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("Hello");
+        stringBuilder.append("Word");
+        System.out.println(stringBuilder.toString());
+        stringBuilder.insert(5," ");
+        System.out.println(stringBuilder.toString());
+        stringBuilder.delete(4,7);
+        System.out.println(stringBuilder.toString());
+
+
+
+    }}
